@@ -1,0 +1,66 @@
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2C3e50;
+}
+
+body{
+    padding: 3px;
+    border: solid;
+    border-color: grey;
+    border-radius: 15px;
+    border-width: 3px;
+    border-image: fill;
+    background-position: center;
+}
+
+form{
+    text-align: center;
+    padding-top: 15px;
+    background-color: wheat;
+}
+
+.topic{
+    padding-top: 15px;
+    line-height: 15px;
+    top: 20px;
+    text-align: center;
+}
+
+.all{
+    margin: 0;
+    padding: 30px;
+    background-color: wheat;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2C3e50;
+    text-decoration: underline;
+}
+
+input{
+    background-color: skyblue;
+    border: solid;
+    border-radius: 5px;
+    border-color: gray;
+}
+
+input[type=text]{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#position{
+    background-color: skyblue;
+    border: solid;
+    border-radius: 5px;
+    border-color: gray;
+}
+
+input[type=submit]:hover{
+    background-color: rebeccapurple;
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+    cursor: pointer;
+}
